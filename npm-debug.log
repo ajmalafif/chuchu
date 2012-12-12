@@ -1,0 +1,1824 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/usr/local/bin/npm',
+verbose cli   'install',
+verbose cli   'recess',
+verbose cli   'connect',
+verbose cli   'uglify-js',
+verbose cli   'jshint',
+verbose cli   '-g' ]
+info using npm@1.1.1
+info using node@v0.6.11
+verbose config file /Users/ajmalafif/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose cache add [ 'recess', null ]
+silly cache add: name, spec, args [ undefined, 'recess', [ 'recess', null ] ]
+verbose parsed url { pathname: 'recess', path: 'recess', href: 'recess' }
+verbose cache add [ 'connect', null ]
+silly cache add: name, spec, args [ undefined, 'connect', [ 'connect', null ] ]
+verbose parsed url { pathname: 'connect', path: 'connect', href: 'connect' }
+verbose cache add [ 'uglify-js', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js', [ 'uglify-js', null ] ]
+verbose parsed url { pathname: 'uglify-js', path: 'uglify-js', href: 'uglify-js' }
+verbose cache add [ 'jshint', null ]
+silly cache add: name, spec, args [ undefined, 'jshint', [ 'jshint', null ] ]
+verbose parsed url { pathname: 'jshint', path: 'jshint', href: 'jshint' }
+verbose addNamed [ 'recess', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'recess', '', false ]
+verbose addNamed [ 'connect', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'connect', '', false ]
+verbose addNamed [ 'uglify-js', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'uglify-js', '', false ]
+verbose addNamed [ 'jshint', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jshint', '', false ]
+verbose raw, before any munging recess
+verbose url resolving [ 'https://registry.npmjs.org/', './recess' ]
+verbose url resolved https://registry.npmjs.org/recess
+http GET https://registry.npmjs.org/recess
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+http GET https://registry.npmjs.org/connect
+verbose raw, before any munging uglify-js
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+verbose url resolved https://registry.npmjs.org/uglify-js
+http GET https://registry.npmjs.org/uglify-js
+verbose raw, before any munging jshint
+verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+verbose url resolved https://registry.npmjs.org/jshint
+http GET https://registry.npmjs.org/jshint
+http 200 https://registry.npmjs.org/recess
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3INZ76I4P53IRMJ1BDC754FOX"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:07 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '23964' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/recess'
+verbose mkdir done: /Users/ajmalafif/.npm/recess 755
+silly name, range, hasData 2 [ 'recess', '', true ]
+silly versions [ 'recess',
+silly versions   [ '0.1.0',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.1.3',
+silly versions     '1.1.4',
+silly versions     '1.1.5',
+silly versions     '1.1.6' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: '0b1ffaff9fe87082bc126dbca3f9ebdf739a459f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/recess/-/recess-1.1.6.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/recess/-/recess-1.1.6.tgz',
+verbose addRemoteTarball   '0b1ffaff9fe87082bc126dbca3f9ebdf739a459f' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943'
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/tmp.tgz
+http GET https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+http 200 https://registry.npmjs.org/jshint
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"507MB39KPLX9UTX5DFD2D8Q9F"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:07 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '85862' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/jshint'
+verbose mkdir done: /Users/ajmalafif/.npm/jshint 755
+silly name, range, hasData 2 [ 'jshint', '', true ]
+silly versions [ 'jshint',
+silly versions   [ '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.2',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: 'ff32ec7f09f84001f7498eeafd63c9e4fbb2dc0e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jshint/-/jshint-0.9.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jshint/-/jshint-0.9.1.tgz',
+verbose addRemoteTarball   'ff32ec7f09f84001f7498eeafd63c9e4fbb2dc0e' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/tmp.tgz
+http GET https://registry.npmjs.org/jshint/-/jshint-0.9.1.tgz
+http 200 https://registry.npmjs.org/connect
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"EE8F9MCK8N34YZIYNTMPPJ9P7"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:07 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '144691' } ]
+http 200 https://registry.npmjs.org/uglify-js
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"AHI9F61KLPJJN4WYGDN7OX7H0"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:07 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '134470' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/connect'
+verbose mkdir done: /Users/ajmalafif/.npm/connect 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/uglify-js'
+verbose mkdir done: /Users/ajmalafif/.npm/uglify-js 755
+silly name, range, hasData 2 [ 'connect', '', true ]
+silly versions [ 'connect',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.8.4',
+silly versions     '1.8.5',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '1.8.6',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.1.2',
+silly versions     '1.8.7',
+silly versions     '2.1.3',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2',
+silly versions     '2.3.3',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '2.3.4',
+silly versions     '2.3.5',
+silly versions     '2.3.6',
+silly versions     '2.3.7',
+silly versions     '1.9.2',
+silly versions     '2.3.8',
+silly versions     '2.3.9',
+silly versions     '2.4.0',
+silly versions     '2.4.1',
+silly versions     '2.4.2',
+silly versions     '2.4.3',
+silly versions     '2.4.4',
+silly versions     '2.4.5',
+silly versions     '2.4.6',
+silly versions     '2.5.0',
+silly versions     '2.6.0',
+silly versions     '2.6.1',
+silly versions     '2.6.2',
+silly versions     '2.7.0',
+silly versions     '2.7.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: 'b869df9acf3dd8a0af7523c7c6f1aa8b4b761daa',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-2.7.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/connect/-/connect-2.7.1.tgz',
+verbose addRemoteTarball   'b869df9acf3dd8a0af7523c7c6f1aa8b4b761daa' ]
+silly name, range, hasData 2 [ 'uglify-js', '', true ]
+silly versions [ 'uglify-js',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.3.0',
+silly versions     '1.3.1',
+silly versions     '1.3.2',
+silly versions     '1.3.3',
+silly versions     '1.3.4',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: '3f8e186e8061850af4de524bcf867baf29609e16',
+verbose bin dist     tarball: 'http://registry.npmjs.org/uglify-js/-/uglify-js-2.2.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.2.tgz',
+verbose addRemoteTarball   '3f8e186e8061850af4de524bcf867baf29609e16' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704 755
+http GET https://registry.npmjs.org/connect/-/connect-2.7.1.tgz
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/tmp.tgz
+http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.2.tgz
+http 200 https://registry.npmjs.org/recess/-/recess-1.1.6.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 2656
+info shasum 0b1ffaff9fe87082bc126dbca3f9ebdf739a459f
+info shasum /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 https://registry.npmjs.org/jshint/-/jshint-0.9.1.tgz
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/.npmignore
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/.travis.yml
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/LICENSE
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/makefile
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/package.json
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/README.md
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/benchmark
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/benchmark/benchmark.less
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/benchmark/index.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/bin
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/bin/recess
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/core.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/index.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/min.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/util.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/compile
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/compile/inline-images.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/compile/prefix-whitespace.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/compile/strict-property-order.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/compile/zero-units.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/inline-images.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/no-IDs.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/no-JS-prefix.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/no-overqualifying.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/no-underscores.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/no-universal-selectors.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/strict-property-order.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/lib/lint/zero-units.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/index.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/sprite.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/blog.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/inline-images.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/no-IDs.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/no-JS.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/no-overqualifying.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/no-underscores.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/preboot.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/prefixes.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/property-order.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/simple.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/universal-selectors.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/compiled/zero-units.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/blog.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/inline-images.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/no-IDs.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/no-JS.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/no-overqualifying.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/no-underscores.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/preboot.less
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/prefixes.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/property-order.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/simple.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/sprite.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/universal-selectors.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/fixtures/zero-units.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/types
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/types/compile.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/types/errors.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package/test/types/lint.js
+verbose gunzed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package
+verbose rm'ed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package
+verbose renamed [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/___package.npm/package',
+verbose renamed   '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package' ]
+verbose caching /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package/package.json
+verbose loadDefaults recess@1.1.6
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package/package.json
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package /Users/ajmalafif/.npm/recess/1.1.6/package.tgz
+silly makeList /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package
+silly dir, dirLen [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package',
+silly dir, dirLen   107 ]
+verbose tarball /Users/ajmalafif/.npm/recess/1.1.6/package.tgz
+verbose parent /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277838943-0.915507611585781/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/recess/1.1.6/___package.npm'
+verbose mkdir done: /Users/ajmalafif/.npm/recess/1.1.6/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ajmalafif/.npm/recess/1.1.6/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/makefile
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/package.json
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/README.md
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/benchmark
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/benchmark/benchmark.less
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/benchmark/index.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/bin
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/bin/recess
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/core.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/index.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/min.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/util.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/compile
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/compile/inline-images.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/compile/prefix-whitespace.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/compile/strict-property-order.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/compile/zero-units.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/inline-images.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/no-IDs.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/no-JS-prefix.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/no-overqualifying.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/no-underscores.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/no-universal-selectors.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/strict-property-order.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/lib/lint/zero-units.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/index.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/sprite.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/blog.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/inline-images.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/no-IDs.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/no-JS.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/no-overqualifying.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/no-underscores.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/preboot.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/prefixes.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/property-order.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/simple.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/universal-selectors.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/compiled/zero-units.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/blog.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/inline-images.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/no-IDs.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/no-JS.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/no-overqualifying.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/no-underscores.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/preboot.less
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/prefixes.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/property-order.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/simple.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/sprite.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/universal-selectors.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/fixtures/zero-units.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/types
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/types/compile.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/types/errors.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package/test/types/lint.js
+verbose gunzed /Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package
+verbose rm'ed /Users/ajmalafif/.npm/recess/1.1.6/package
+verbose renamed [ '/Users/ajmalafif/.npm/recess/1.1.6/___package.npm/package',
+verbose renamed   '/Users/ajmalafif/.npm/recess/1.1.6/package' ]
+verbose caching /Users/ajmalafif/.npm/recess/1.1.6/package/package.json
+verbose loadDefaults recess@1.1.6
+silly updated sha bytes 40960
+silly updated sha bytes 2920
+info shasum a76211cb159a0a6b88eda1cde3fea20c89956761
+info shasum /Users/ajmalafif/.npm/recess/1.1.6/package.tgz
+verbose from cache /Users/ajmalafif/.npm/recess/1.1.6/package/package.json
+verbose chmod /Users/ajmalafif/.npm/recess/1.1.6/package.tgz 644
+verbose chown [ '/Users/ajmalafif/.npm/recess/1.1.6/package.tgz', 501, 20 ]
+http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.2.2.tgz
+http 200 https://registry.npmjs.org/connect/-/connect-2.7.1.tgz
+silly updated sha bytes 40346
+info shasum ff32ec7f09f84001f7498eeafd63c9e4fbb2dc0e
+info shasum /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/LICENSE
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/package.json
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/README.md
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/bin
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/bin/hint
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/cli.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/hint.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/reporters
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/reporters/checkstyle.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/reporters/default.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/reporters/jslint_xml.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/lib/reporters/non_error.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/packages
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/packages/jshint
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/packages/jshint/jshint.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package/packages/jshint/README.md
+silly chmod LICENSE 644
+silly chmod package.json 644
+silly chmod README.md 644
+silly chmod hint 755
+silly chmod cli.js 644
+silly chmod hint.js 644
+silly chmod checkstyle.js 644
+silly chmod default.js 644
+silly chmod jslint_xml.js 644
+silly chmod non_error.js 644
+silly chmod jshint.js 644
+silly chmod README.md 755
+verbose gunzed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package
+verbose rm'ed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package
+verbose renamed [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/___package.npm/package',
+verbose renamed   '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package' ]
+verbose caching /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package/package.json
+verbose loadDefaults jshint@0.9.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package/package.json
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package /Users/ajmalafif/.npm/jshint/0.9.1/package.tgz
+silly makeList /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package
+silly dir, dirLen [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/ajmalafif/.npm/jshint/0.9.1/package.tgz
+verbose parent /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839533-0.0409869309514761/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/jshint/0.9.1/___package.npm'
+verbose mkdir done: /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ajmalafif/.npm/jshint/0.9.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/README.md
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/bin
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/bin/hint
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/packages
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/packages/jshint
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/packages/jshint/jshint.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/packages/jshint/README.md
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/cli.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/hint.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/reporters
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/reporters/checkstyle.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/reporters/default.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/reporters/jslint_xml.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package/lib/reporters/non_error.js
+verbose gunzed /Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package
+verbose rm'ed /Users/ajmalafif/.npm/jshint/0.9.1/package
+verbose renamed [ '/Users/ajmalafif/.npm/jshint/0.9.1/___package.npm/package',
+verbose renamed   '/Users/ajmalafif/.npm/jshint/0.9.1/package' ]
+verbose caching /Users/ajmalafif/.npm/jshint/0.9.1/package/package.json
+verbose loadDefaults jshint@0.9.1
+silly updated sha bytes 40960
+silly updated sha bytes 539
+info shasum 27b81cf2c94a7c3fb55b82081dcd477243fe092e
+info shasum /Users/ajmalafif/.npm/jshint/0.9.1/package.tgz
+verbose from cache /Users/ajmalafif/.npm/jshint/0.9.1/package/package.json
+verbose chmod /Users/ajmalafif/.npm/jshint/0.9.1/package.tgz 644
+verbose chown [ '/Users/ajmalafif/.npm/jshint/0.9.1/package.tgz', 501, 20 ]
+silly updated sha bytes 40960
+silly updated sha bytes 27960
+info shasum 3f8e186e8061850af4de524bcf867baf29609e16
+info shasum /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/.npmignore
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/package.json
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/README.md
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/bin
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/bin/uglifyjs
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/ast.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/compress.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/mozilla-ast.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/output.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/parse.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/scope.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/sourcemap.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/transform.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/tools
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/tools/node.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/run-tests.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/blocks.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/conditionals.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/dead-code.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/debugger.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/drop-unused.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/issue-12.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/issue-22.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/issue-44.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/issue-59.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/labels.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/loops.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/properties.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/sequences.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package/test/compress/switch.js
+verbose gunzed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package
+verbose rm'ed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package
+verbose renamed [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/___package.npm/package',
+verbose renamed   '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package' ]
+verbose caching /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package/package.json
+verbose loadDefaults uglify-js@2.2.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package/package.json
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package /Users/ajmalafif/.npm/uglify-js/2.2.2/package.tgz
+silly makeList /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package
+silly dir, dirLen [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/ajmalafif/.npm/uglify-js/2.2.2/package.tgz
+verbose parent /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839759-0.08658109372481704/package
+silly updated sha bytes 32768
+silly updated sha bytes 36864
+silly updated sha bytes 5667
+info shasum b869df9acf3dd8a0af7523c7c6f1aa8b4b761daa
+info shasum /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm'
+verbose mkdir done: /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ajmalafif/.npm/uglify-js/2.2.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/.npmignore
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/.travis.yml
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/index.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/LICENSE
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/package.json
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/Readme.md
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/test.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/cache.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/connect.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/index.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/patch.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/proto.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/basicAuth.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/bodyParser.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/compress.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/cookieParser.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/cookieSession.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/csrf.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/directory.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/errorHandler.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/favicon.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/json.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/limit.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/logger.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/methodOverride.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/multipart.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/query.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/responseTime.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/static.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/staticCache.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/timeout.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/urlencoded.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/vhost.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session/cookie.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session/memory.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session/session.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/middleware/session/store.js
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/directory.html
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/error.html
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/favicon.ico
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/style.css
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_add.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_attach.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_code.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_copy.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_delete.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_edit.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_error.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_excel.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_find.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_gear.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_go.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_green.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_key.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_lightning.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_link.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_paintbrush.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_paste.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_red.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_refresh.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_save.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_acrobat.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_actionscript.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_add.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_c.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_camera.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_cd.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_code.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_code_red.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_coldfusion.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_compressed.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_copy.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_cplusplus.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_csharp.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_cup.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_database.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_delete.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_dvd.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_edit.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_error.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_excel.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_find.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_flash.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_freehand.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_gear.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_get.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_go.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_h.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_horizontal.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_key.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_lightning.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_link.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_magnify.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_medal.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_office.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_paint.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_paintbrush.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_paste.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_php.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_powerpoint.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_picture.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_put.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_ruby.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_stack.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_star.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_swoosh.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_text.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_text_width.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_tux.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_vector.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_visualstudio.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_width.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_word.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_world.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_wrench.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_white_zip.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_word.png
+silly asyncMap in gTP /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package/lib/public/icons/page_world.png
+verbose gunzed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package
+verbose rm'ed /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package
+verbose renamed [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/___package.npm/package',
+verbose renamed   '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package' ]
+verbose caching /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package/package.json
+verbose loadDefaults connect@2.7.1
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package/package.json
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package
+verbose pack /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package /Users/ajmalafif/.npm/connect/2.7.1/package.tgz
+silly makeList /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package
+silly dir, dirLen [ '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/ajmalafif/.npm/connect/2.7.1/package.tgz
+verbose parent /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277839758-0.20025886362418532/package
+silly afterUntar undefined
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/package.json
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/README.md
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/bin
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/bin/uglifyjs
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/ast.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/compress.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/mozilla-ast.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/output.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/parse.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/scope.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/sourcemap.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/transform.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/tools
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/tools/node.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/run-tests.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/blocks.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/conditionals.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/dead-code.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/debugger.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/drop-unused.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/issue-12.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/issue-22.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/issue-44.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/issue-59.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/labels.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/loops.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/properties.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/sequences.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package/test/compress/switch.js
+verbose gunzed /Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package
+verbose rm'ed /Users/ajmalafif/.npm/uglify-js/2.2.2/package
+verbose renamed [ '/Users/ajmalafif/.npm/uglify-js/2.2.2/___package.npm/package',
+verbose renamed   '/Users/ajmalafif/.npm/uglify-js/2.2.2/package' ]
+verbose caching /Users/ajmalafif/.npm/uglify-js/2.2.2/package/package.json
+verbose loadDefaults uglify-js@2.2.2
+silly updated sha bytes 32768
+silly updated sha bytes 37219
+info shasum 61bd2ea713e1d0d0b6d177be90b68b12d084bfc6
+info shasum /Users/ajmalafif/.npm/uglify-js/2.2.2/package.tgz
+verbose from cache /Users/ajmalafif/.npm/uglify-js/2.2.2/package/package.json
+verbose chmod /Users/ajmalafif/.npm/uglify-js/2.2.2/package.tgz 644
+verbose chown [ '/Users/ajmalafif/.npm/uglify-js/2.2.2/package.tgz', 501, 20 ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/connect/2.7.1/___package.npm'
+verbose mkdir done: /Users/ajmalafif/.npm/connect/2.7.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ajmalafif/.npm/connect/2.7.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/.travis.yml
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/index.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/LICENSE
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/test.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/cache.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/connect.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/index.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/patch.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/proto.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/basicAuth.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/bodyParser.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/compress.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/cookieParser.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/cookieSession.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/csrf.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/directory.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/errorHandler.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/favicon.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/json.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/limit.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/logger.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/methodOverride.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/multipart.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/query.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/responseTime.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/static.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/staticCache.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/timeout.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/urlencoded.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/vhost.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session/cookie.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session/memory.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session/session.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/middleware/session/store.js
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/directory.html
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/error.html
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/favicon.ico
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/style.css
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_add.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_attach.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_code.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_copy.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_delete.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_edit.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_error.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_excel.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_find.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_gear.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_go.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_green.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_key.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_lightning.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_link.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_paintbrush.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_paste.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_red.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_refresh.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_save.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_acrobat.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_actionscript.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_add.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_c.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_camera.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_cd.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_code.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_code_red.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_coldfusion.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_compressed.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_copy.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_cplusplus.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_csharp.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_cup.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_database.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_delete.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_dvd.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_edit.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_error.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_excel.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_find.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_flash.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_freehand.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_gear.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_get.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_go.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_h.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_horizontal.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_key.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_lightning.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_link.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_magnify.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_medal.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_office.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_paint.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_paintbrush.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_paste.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_php.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_picture.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_powerpoint.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_put.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_ruby.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_stack.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_star.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_swoosh.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_text.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_text_width.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_tux.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_vector.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_visualstudio.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_width.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_word.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_world.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_wrench.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_white_zip.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_word.png
+silly asyncMap in gTP /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package/lib/public/icons/page_world.png
+verbose gunzed /Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package
+verbose rm'ed /Users/ajmalafif/.npm/connect/2.7.1/package
+verbose renamed [ '/Users/ajmalafif/.npm/connect/2.7.1/___package.npm/package',
+verbose renamed   '/Users/ajmalafif/.npm/connect/2.7.1/package' ]
+verbose caching /Users/ajmalafif/.npm/connect/2.7.1/package/package.json
+verbose loadDefaults connect@2.7.1
+silly updated sha bytes 40960
+silly updated sha bytes 34565
+info shasum 85fdf8f469f58625f69ba6da6a5f08bb22710832
+info shasum /Users/ajmalafif/.npm/connect/2.7.1/package.tgz
+verbose from cache /Users/ajmalafif/.npm/connect/2.7.1/package/package.json
+verbose chmod /Users/ajmalafif/.npm/connect/2.7.1/package.tgz 644
+verbose chown [ '/Users/ajmalafif/.npm/connect/2.7.1/package.tgz', 501, 20 ]
+silly resolved [ { name: 'recess',
+silly resolved     description: 'A simple, attractive code quality tool for CSS built on top of LESS',
+silly resolved     version: '1.1.6',
+silly resolved     author: 
+silly resolved      { name: 'Jacob Thornton',
+silly resolved        email: 'jacob@twitter.com',
+silly resolved        url: 'https://github.com/fat' },
+silly resolved     keywords: [ 'css', 'lint' ],
+silly resolved     licenses: 
+silly resolved      [ { type: 'Apache-2.0',
+silly resolved          url: 'http://www.apache.org/licenses/LICENSE-2.0' } ],
+silly resolved     main: './lib',
+silly resolved     homepage: 'http://twitter.github.com/recess',
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     dependencies: 
+silly resolved      { colors: '>= 0.3.0',
+silly resolved        nopt: '>= 1.0.10',
+silly resolved        underscore: '>= 1.2.1',
+silly resolved        watch: '>= 0.5.1',
+silly resolved        less: '>= 1.3.0' },
+silly resolved     directories: { bin: './bin' },
+silly resolved     scripts: { test: 'node test' },
+silly resolved     bin: { recess: './bin/recess' },
+silly resolved     preferGlobal: true,
+silly resolved     _id: 'recess@1.1.6',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'a76211cb159a0a6b88eda1cde3fea20c89956761' } },
+silly resolved   { name: 'jshint',
+silly resolved     version: '0.9.1',
+silly resolved     description: 'A CLI for JSHint',
+silly resolved     homepage: 'http://github.com/jshint/node-jshint',
+silly resolved     author: 
+silly resolved      { name: 'Brent Lintner',
+silly resolved        email: 'brent.lintner@gmail.com',
+silly resolved        url: 'http://github.com/brentlintner' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://www.opensource.org/licenses/mit-license.php' } ],
+silly resolved     bin: { jshint: './bin/hint' },
+silly resolved     main: 'packages/jshint/jshint',
+silly resolved     files: 
+silly resolved      [ 'packages/jshint/README.markdown',
+silly resolved        'packages/jshint/jshint.js',
+silly resolved        'README.md',
+silly resolved        'LICENSE',
+silly resolved        'bin/hint',
+silly resolved        'lib' ],
+silly resolved     dependencies: { cli: '0.4.3', minimatch: '0.0.x' },
+silly resolved     devDependencies: { 'jasmine-node': '1.0.x' },
+silly resolved     preferGlobal: true,
+silly resolved     _id: 'jshint@0.9.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '27b81cf2c94a7c3fb55b82081dcd477243fe092e' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'uglify-js',
+silly resolved     description: 'JavaScript parser, mangler/compressor and beautifier toolkit',
+silly resolved     homepage: 'http://lisperator.net/uglifyjs',
+silly resolved     main: 'tools/node.js',
+silly resolved     version: '2.2.2',
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'Mihai Bazon',
+silly resolved          email: 'mihai.bazon@gmail.com',
+silly resolved          url: 'http://lisperator.net/' } ],
+silly resolved     repositories: [ { type: 'git', url: 'https://github.com/mishoo/UglifyJS2.git' } ],
+silly resolved     dependencies: { 'source-map': '~0.1.7', optimist: '~0.3.5' },
+silly resolved     bin: { uglifyjs: 'bin/uglifyjs' },
+silly resolved     scripts: { test: 'node test/run-tests.js' },
+silly resolved     _id: 'uglify-js@2.2.2',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '61bd2ea713e1d0d0b6d177be90b68b12d084bfc6' } },
+silly resolved   { name: 'connect',
+silly resolved     version: '2.7.1',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: 
+silly resolved      { qs: '0.5.1',
+silly resolved        formidable: '1.0.11',
+silly resolved        'cookie-signature': '0.0.1',
+silly resolved        crc: '0.2.0',
+silly resolved        cookie: '0.0.5',
+silly resolved        bytes: '0.1.0',
+silly resolved        send: '0.1.0',
+silly resolved        fresh: '0.1.0',
+silly resolved        pause: '0.0.1',
+silly resolved        debug: '*' },
+silly resolved     devDependencies: { should: '*', mocha: '*', jade: '*', dox: '*' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.5.0' },
+silly resolved     scripts: { test: 'make' },
+silly resolved     _id: 'connect@2.7.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '85fdf8f469f58625f69ba6da6a5f08bb22710832' } } ]
+info into /usr/local/lib recess@1.1.6
+info into /usr/local/lib jshint@0.9.1
+info into /usr/local/lib uglify-js@2.2.2
+info into /usr/local/lib connect@2.7.1
+info installOne recess@1.1.6
+info installOne jshint@0.9.1
+info installOne uglify-js@2.2.2
+info installOne connect@2.7.1
+info unbuild /usr/local/lib/node_modules/recess
+info unbuild /usr/local/lib/node_modules/jshint
+info unbuild /usr/local/lib/node_modules/uglify-js
+info unbuild /usr/local/lib/node_modules/connect
+verbose from cache /Users/ajmalafif/.npm/recess/1.1.6/package/package.json
+verbose from cache /Users/ajmalafif/.npm/jshint/0.9.1/package/package.json
+verbose from cache /Users/ajmalafif/.npm/uglify-js/2.2.2/package/package.json
+verbose from cache /Users/ajmalafif/.npm/connect/2.7.1/package/package.json
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___recess.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___jshint.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___uglify-js.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/usr/local/lib/node_modules/___connect.npm'
+verbose mkdir done: /usr/local/lib/node_modules/___recess.npm 755
+verbose mkdir done: /usr/local/lib/node_modules/___jshint.npm 755
+verbose mkdir done: /usr/local/lib/node_modules/___uglify-js.npm 755
+verbose mkdir done: /usr/local/lib/node_modules/___connect.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/recess
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/jshint
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/uglify-js
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /usr/local/lib/node_modules/connect
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/LICENSE
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/README.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/bin/hint
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/cli.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/hint.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/reporters
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/reporters/checkstyle.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/reporters/default.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/reporters/jslint_xml.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/lib/reporters/non_error.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/packages
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/packages/jshint
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/packages/jshint/jshint.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___jshint.npm/package/packages/jshint/README.md
+verbose gunzed /usr/local/lib/node_modules/___jshint.npm/package
+verbose rm'ed /usr/local/lib/node_modules/jshint
+verbose renamed [ '/usr/local/lib/node_modules/___jshint.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/jshint' ]
+verbose caching /usr/local/lib/node_modules/jshint/package.json
+verbose loadDefaults jshint@0.9.1
+info preinstall jshint@0.9.1
+verbose from cache /usr/local/lib/node_modules/jshint/package.json
+verbose cache add [ 'cli@0.4.3', null ]
+silly cache add: name, spec, args [ undefined, 'cli@0.4.3', [ 'cli@0.4.3', null ] ]
+verbose parsed url { pathname: 'cli@0.4.3', path: 'cli@0.4.3', href: 'cli@0.4.3' }
+silly cache add: name, spec, args [ 'cli', '0.4.3', [ 'cli', '0.4.3' ] ]
+verbose parsed url { pathname: '0.4.3', path: '0.4.3', href: '0.4.3' }
+verbose addNamed [ 'cli', '0.4.3' ]
+verbose addNamed [ '0.4.3', '0.4.3' ]
+verbose cache add [ 'minimatch@0.0.x', null ]
+silly cache add: name, spec, args [ undefined, 'minimatch@0.0.x', [ 'minimatch@0.0.x', null ] ]
+verbose parsed url { pathname: 'minimatch@0.0.x',
+verbose parsed url   path: 'minimatch@0.0.x',
+verbose parsed url   href: 'minimatch@0.0.x' }
+silly cache add: name, spec, args [ 'minimatch', '0.0.x', [ 'minimatch', '0.0.x' ] ]
+verbose parsed url { pathname: '0.0.x', path: '0.0.x', href: '0.0.x' }
+verbose addNamed [ 'minimatch', '0.0.x' ]
+verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+silly name, range, hasData [ 'minimatch', '>=0.0.0- <0.1.0-', false ]
+verbose raw, before any munging cli/0.4.3
+verbose url resolving [ 'https://registry.npmjs.org/', './cli/0.4.3' ]
+verbose url resolved https://registry.npmjs.org/cli/0.4.3
+http GET https://registry.npmjs.org/cli/0.4.3
+verbose raw, before any munging minimatch
+verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+verbose url resolved https://registry.npmjs.org/minimatch
+http GET https://registry.npmjs.org/minimatch
+silly afterUntar undefined
+silly afterUntar undefined
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/README.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/bin/uglifyjs
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/ast.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/compress.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/mozilla-ast.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/output.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/parse.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/scope.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/sourcemap.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/transform.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/lib/utils.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/tools
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/tools/node.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/run-tests.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/blocks.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/conditionals.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/dead-code.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/debugger.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/drop-unused.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/issue-12.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/issue-22.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/issue-44.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/issue-59.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/labels.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/loops.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/properties.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/sequences.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___uglify-js.npm/package/test/compress/switch.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/.travis.yml
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/LICENSE
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/makefile
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/README.md
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/benchmark
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/benchmark/benchmark.less
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/benchmark/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/bin
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/bin/recess
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/core.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/min.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/util.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/compile
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/compile/inline-images.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/compile/prefix-whitespace.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/compile/strict-property-order.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/compile/zero-units.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/inline-images.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/no-IDs.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/no-JS-prefix.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/no-overqualifying.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/no-underscores.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/no-universal-selectors.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/strict-property-order.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/lib/lint/zero-units.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/sprite.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/blog.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/inline-images.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/no-IDs.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/no-JS.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/no-overqualifying.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/no-underscores.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/preboot.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/prefixes.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/property-order.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/simple.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/universal-selectors.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/compiled/zero-units.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/blog.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/inline-images.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/no-IDs.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/no-JS.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/no-overqualifying.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/no-underscores.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/preboot.less
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/prefixes.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/property-order.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/simple.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/sprite.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/universal-selectors.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/fixtures/zero-units.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/types
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/types/compile.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/types/errors.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___recess.npm/package/test/types/lint.js
+verbose gunzed /usr/local/lib/node_modules/___uglify-js.npm/package
+verbose rm'ed /usr/local/lib/node_modules/uglify-js
+verbose renamed [ '/usr/local/lib/node_modules/___uglify-js.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/uglify-js' ]
+verbose gunzed /usr/local/lib/node_modules/___recess.npm/package
+verbose rm'ed /usr/local/lib/node_modules/recess
+verbose renamed [ '/usr/local/lib/node_modules/___recess.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/recess' ]
+verbose caching /usr/local/lib/node_modules/uglify-js/package.json
+verbose loadDefaults uglify-js@2.2.2
+verbose caching /usr/local/lib/node_modules/recess/package.json
+verbose loadDefaults recess@1.1.6
+info preinstall uglify-js@2.2.2
+verbose from cache /usr/local/lib/node_modules/uglify-js/package.json
+info preinstall recess@1.1.6
+verbose cache add [ 'source-map@~0.1.7', null ]
+silly cache add: name, spec, args [ undefined, 'source-map@~0.1.7', [ 'source-map@~0.1.7', null ] ]
+verbose parsed url { pathname: 'source-map@~0.1.7',
+verbose parsed url   path: 'source-map@~0.1.7',
+verbose parsed url   href: 'source-map@~0.1.7' }
+silly cache add: name, spec, args [ 'source-map', '~0.1.7', [ 'source-map', '~0.1.7' ] ]
+verbose parsed url { pathname: '~0.1.7', path: '~0.1.7', href: '~0.1.7' }
+verbose addNamed [ 'source-map', '~0.1.7' ]
+verbose addNamed [ null, '>=0.1.7- <0.2.0-' ]
+silly name, range, hasData [ 'source-map', '>=0.1.7- <0.2.0-', false ]
+verbose cache add [ 'optimist@~0.3.5', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.3.5', [ 'optimist@~0.3.5', null ] ]
+verbose parsed url { pathname: 'optimist@~0.3.5',
+verbose parsed url   path: 'optimist@~0.3.5',
+verbose parsed url   href: 'optimist@~0.3.5' }
+silly cache add: name, spec, args [ 'optimist', '~0.3.5', [ 'optimist', '~0.3.5' ] ]
+verbose parsed url { pathname: '~0.3.5', path: '~0.3.5', href: '~0.3.5' }
+verbose addNamed [ 'optimist', '~0.3.5' ]
+verbose addNamed [ null, '>=0.3.5- <0.4.0-' ]
+silly name, range, hasData [ 'optimist', '>=0.3.5- <0.4.0-', false ]
+verbose from cache /usr/local/lib/node_modules/recess/package.json
+verbose raw, before any munging source-map
+verbose url resolving [ 'https://registry.npmjs.org/', './source-map' ]
+verbose url resolved https://registry.npmjs.org/source-map
+http GET https://registry.npmjs.org/source-map
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+http GET https://registry.npmjs.org/optimist
+verbose cache add [ 'colors@>= 0.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'colors@>= 0.3.0', [ 'colors@>= 0.3.0', null ] ]
+verbose parsed url { pathname: 'colors@', path: 'colors@', href: 'colors@' }
+silly cache add: name, spec, args [ 'colors', '>= 0.3.0', [ 'colors', '>= 0.3.0' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'colors', '>= 0.3.0' ]
+verbose addNamed [ null, '>=0.3.0' ]
+silly name, range, hasData [ 'colors', '>=0.3.0', false ]
+verbose cache add [ 'nopt@>= 1.0.10', null ]
+silly cache add: name, spec, args [ undefined, 'nopt@>= 1.0.10', [ 'nopt@>= 1.0.10', null ] ]
+verbose parsed url { pathname: 'nopt@', path: 'nopt@', href: 'nopt@' }
+silly cache add: name, spec, args [ 'nopt', '>= 1.0.10', [ 'nopt', '>= 1.0.10' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'nopt', '>= 1.0.10' ]
+verbose addNamed [ null, '>=1.0.10' ]
+silly name, range, hasData [ 'nopt', '>=1.0.10', false ]
+verbose cache add [ 'underscore@>= 1.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'underscore@>= 1.2.1',
+silly cache add: name, spec, args   [ 'underscore@>= 1.2.1', null ] ]
+verbose parsed url { pathname: 'underscore@',
+verbose parsed url   path: 'underscore@',
+verbose parsed url   href: 'underscore@' }
+silly cache add: name, spec, args [ 'underscore', '>= 1.2.1', [ 'underscore', '>= 1.2.1' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'underscore', '>= 1.2.1' ]
+verbose addNamed [ null, '>=1.2.1' ]
+silly name, range, hasData [ 'underscore', '>=1.2.1', false ]
+verbose cache add [ 'watch@>= 0.5.1', null ]
+silly cache add: name, spec, args [ undefined, 'watch@>= 0.5.1', [ 'watch@>= 0.5.1', null ] ]
+verbose parsed url { pathname: 'watch@', path: 'watch@', href: 'watch@' }
+silly cache add: name, spec, args [ 'watch', '>= 0.5.1', [ 'watch', '>= 0.5.1' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'watch', '>= 0.5.1' ]
+verbose addNamed [ null, '>=0.5.1' ]
+silly name, range, hasData [ 'watch', '>=0.5.1', false ]
+verbose raw, before any munging colors
+verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+verbose url resolved https://registry.npmjs.org/colors
+http GET https://registry.npmjs.org/colors
+verbose raw, before any munging nopt
+verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+verbose url resolved https://registry.npmjs.org/nopt
+http GET https://registry.npmjs.org/nopt
+verbose raw, before any munging underscore
+verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+verbose url resolved https://registry.npmjs.org/underscore
+http GET https://registry.npmjs.org/underscore
+verbose raw, before any munging watch
+verbose url resolving [ 'https://registry.npmjs.org/', './watch' ]
+verbose url resolved https://registry.npmjs.org/watch
+http GET https://registry.npmjs.org/watch
+verbose cache add [ 'less@>= 1.3.0', null ]
+silly cache add: name, spec, args [ undefined, 'less@>= 1.3.0', [ 'less@>= 1.3.0', null ] ]
+verbose parsed url { pathname: 'less@', path: 'less@', href: 'less@' }
+silly cache add: name, spec, args [ 'less', '>= 1.3.0', [ 'less', '>= 1.3.0' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'less', '>= 1.3.0' ]
+verbose addNamed [ null, '>=1.3.0' ]
+silly name, range, hasData [ 'less', '>=1.3.0', false ]
+verbose raw, before any munging less
+verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+verbose url resolved https://registry.npmjs.org/less
+http GET https://registry.npmjs.org/less
+silly afterUntar undefined
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/.npmignore
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/.travis.yml
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/LICENSE
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/package.json
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/test.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/cache.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/connect.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/index.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/patch.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/proto.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/utils.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/basicAuth.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/bodyParser.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/compress.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/cookieParser.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/cookieSession.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/csrf.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/directory.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/errorHandler.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/favicon.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/json.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/limit.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/logger.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/methodOverride.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/multipart.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/query.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/responseTime.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/static.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/staticCache.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/timeout.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/urlencoded.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/vhost.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session/cookie.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session/memory.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session/session.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/middleware/session/store.js
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/directory.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/error.html
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/favicon.ico
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/style.css
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_add.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_attach.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_code.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_copy.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_delete.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_edit.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_error.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_excel.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_find.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_gear.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_go.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_green.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_key.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_lightning.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_link.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_paintbrush.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_paste.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_red.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_refresh.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_save.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_acrobat.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_actionscript.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_add.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_c.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_camera.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_cd.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_code.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_code_red.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_coldfusion.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_compressed.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_copy.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_cplusplus.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_csharp.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_cup.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_database.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_delete.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_dvd.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_edit.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_error.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_excel.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_find.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_flash.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_freehand.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_gear.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_get.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_go.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_h.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_horizontal.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_key.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_lightning.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_link.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_magnify.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_medal.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_office.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_paint.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_paintbrush.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_paste.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_php.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_picture.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_powerpoint.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_put.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_ruby.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_stack.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_star.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_swoosh.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_text.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_text_width.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_tux.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_vector.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_visualstudio.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_width.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_word.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_world.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_wrench.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_white_zip.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_word.png
+silly asyncMap in gTP /usr/local/lib/node_modules/___connect.npm/package/lib/public/icons/page_world.png
+verbose gunzed /usr/local/lib/node_modules/___connect.npm/package
+verbose rm'ed /usr/local/lib/node_modules/connect
+verbose renamed [ '/usr/local/lib/node_modules/___connect.npm/package',
+verbose renamed   '/usr/local/lib/node_modules/connect' ]
+verbose caching /usr/local/lib/node_modules/connect/package.json
+verbose loadDefaults connect@2.7.1
+info preinstall connect@2.7.1
+verbose from cache /usr/local/lib/node_modules/connect/package.json
+verbose cache add [ 'formidable@1.0.11', null ]
+silly cache add: name, spec, args [ undefined, 'formidable@1.0.11', [ 'formidable@1.0.11', null ] ]
+verbose parsed url { pathname: 'formidable@1.0.11',
+verbose parsed url   path: 'formidable@1.0.11',
+verbose parsed url   href: 'formidable@1.0.11' }
+silly cache add: name, spec, args [ 'formidable', '1.0.11', [ 'formidable', '1.0.11' ] ]
+verbose parsed url { pathname: '1.0.11', path: '1.0.11', href: '1.0.11' }
+verbose addNamed [ 'formidable', '1.0.11' ]
+verbose addNamed [ '1.0.11', '1.0.11' ]
+verbose raw, before any munging formidable/1.0.11
+verbose url resolving [ 'https://registry.npmjs.org/', './formidable/1.0.11' ]
+verbose url resolved https://registry.npmjs.org/formidable/1.0.11
+http GET https://registry.npmjs.org/formidable/1.0.11
+verbose cache add [ 'cookie-signature@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'cookie-signature@0.0.1',
+silly cache add: name, spec, args   [ 'cookie-signature@0.0.1', null ] ]
+verbose parsed url { pathname: 'cookie-signature@0.0.1',
+verbose parsed url   path: 'cookie-signature@0.0.1',
+verbose parsed url   href: 'cookie-signature@0.0.1' }
+silly cache add: name, spec, args [ 'cookie-signature', '0.0.1', [ 'cookie-signature', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'cookie-signature', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add [ 'crc@0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'crc@0.2.0', [ 'crc@0.2.0', null ] ]
+verbose parsed url { pathname: 'crc@0.2.0', path: 'crc@0.2.0', href: 'crc@0.2.0' }
+silly cache add: name, spec, args [ 'crc', '0.2.0', [ 'crc', '0.2.0' ] ]
+verbose parsed url { pathname: '0.2.0', path: '0.2.0', href: '0.2.0' }
+verbose addNamed [ 'crc', '0.2.0' ]
+verbose addNamed [ '0.2.0', '0.2.0' ]
+verbose raw, before any munging cookie-signature/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/cookie-signature/0.0.1
+http GET https://registry.npmjs.org/cookie-signature/0.0.1
+verbose raw, before any munging crc/0.2.0
+verbose url resolving [ 'https://registry.npmjs.org/', './crc/0.2.0' ]
+verbose url resolved https://registry.npmjs.org/crc/0.2.0
+http GET https://registry.npmjs.org/crc/0.2.0
+verbose cache add [ 'cookie@0.0.5', null ]
+silly cache add: name, spec, args [ undefined, 'cookie@0.0.5', [ 'cookie@0.0.5', null ] ]
+verbose parsed url { pathname: 'cookie@0.0.5',
+verbose parsed url   path: 'cookie@0.0.5',
+verbose parsed url   href: 'cookie@0.0.5' }
+silly cache add: name, spec, args [ 'cookie', '0.0.5', [ 'cookie', '0.0.5' ] ]
+verbose parsed url { pathname: '0.0.5', path: '0.0.5', href: '0.0.5' }
+verbose addNamed [ 'cookie', '0.0.5' ]
+verbose addNamed [ '0.0.5', '0.0.5' ]
+verbose raw, before any munging cookie/0.0.5
+verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.0.5' ]
+verbose url resolved https://registry.npmjs.org/cookie/0.0.5
+http GET https://registry.npmjs.org/cookie/0.0.5
+verbose cache add [ 'bytes@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'bytes@0.1.0', [ 'bytes@0.1.0', null ] ]
+verbose parsed url { pathname: 'bytes@0.1.0',
+verbose parsed url   path: 'bytes@0.1.0',
+verbose parsed url   href: 'bytes@0.1.0' }
+silly cache add: name, spec, args [ 'bytes', '0.1.0', [ 'bytes', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'bytes', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose raw, before any munging bytes/0.1.0
+verbose url resolving [ 'https://registry.npmjs.org/', './bytes/0.1.0' ]
+verbose url resolved https://registry.npmjs.org/bytes/0.1.0
+http GET https://registry.npmjs.org/bytes/0.1.0
+verbose cache add [ 'send@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'send@0.1.0', [ 'send@0.1.0', null ] ]
+verbose parsed url { pathname: 'send@0.1.0',
+verbose parsed url   path: 'send@0.1.0',
+verbose parsed url   href: 'send@0.1.0' }
+silly cache add: name, spec, args [ 'send', '0.1.0', [ 'send', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'send', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose raw, before any munging send/0.1.0
+verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.0' ]
+verbose url resolved https://registry.npmjs.org/send/0.1.0
+http GET https://registry.npmjs.org/send/0.1.0
+verbose cache add [ 'fresh@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'fresh@0.1.0', [ 'fresh@0.1.0', null ] ]
+verbose parsed url { pathname: 'fresh@0.1.0',
+verbose parsed url   path: 'fresh@0.1.0',
+verbose parsed url   href: 'fresh@0.1.0' }
+silly cache add: name, spec, args [ 'fresh', '0.1.0', [ 'fresh', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'fresh', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose raw, before any munging fresh/0.1.0
+verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.1.0' ]
+verbose url resolved https://registry.npmjs.org/fresh/0.1.0
+http GET https://registry.npmjs.org/fresh/0.1.0
+verbose cache add [ 'pause@0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'pause@0.0.1', [ 'pause@0.0.1', null ] ]
+verbose parsed url { pathname: 'pause@0.0.1',
+verbose parsed url   path: 'pause@0.0.1',
+verbose parsed url   href: 'pause@0.0.1' }
+silly cache add: name, spec, args [ 'pause', '0.0.1', [ 'pause', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'pause', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose raw, before any munging pause/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './pause/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/pause/0.0.1
+http GET https://registry.npmjs.org/pause/0.0.1
+verbose cache add [ 'debug@*', null ]
+silly cache add: name, spec, args [ undefined, 'debug@*', [ 'debug@*', null ] ]
+verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+silly cache add: name, spec, args [ 'debug', '*', [ 'debug', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'debug', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'debug', '', false ]
+verbose raw, before any munging debug
+verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+verbose url resolved https://registry.npmjs.org/debug
+http GET https://registry.npmjs.org/debug
+verbose cache add [ 'qs@0.5.1', null ]
+silly cache add: name, spec, args [ undefined, 'qs@0.5.1', [ 'qs@0.5.1', null ] ]
+verbose parsed url { pathname: 'qs@0.5.1', path: 'qs@0.5.1', href: 'qs@0.5.1' }
+silly cache add: name, spec, args [ 'qs', '0.5.1', [ 'qs', '0.5.1' ] ]
+verbose parsed url { pathname: '0.5.1', path: '0.5.1', href: '0.5.1' }
+verbose addNamed [ 'qs', '0.5.1' ]
+verbose addNamed [ '0.5.1', '0.5.1' ]
+verbose raw, before any munging qs/0.5.1
+verbose url resolving [ 'https://registry.npmjs.org/', './qs/0.5.1' ]
+verbose url resolved https://registry.npmjs.org/qs/0.5.1
+http GET https://registry.npmjs.org/qs/0.5.1
+http 200 https://registry.npmjs.org/cli/0.4.3
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3EMFKQ75APXEOL4BWZ4ZHTCWB"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '7506' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/cli'
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/cli/0.4.3'
+verbose mkdir done: /Users/ajmalafif/.npm/cli/0.4.3 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: 'e6819c8d5faa957f64f98f66a8506268c1d1f17d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cli/-/cli-0.4.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/cli/-/cli-0.4.3.tgz',
+verbose addRemoteTarball   'e6819c8d5faa957f64f98f66a8506268c1d1f17d' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844222-0.7632621687371284'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844222-0.7632621687371284 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844222-0.7632621687371284/tmp.tgz
+http GET https://registry.npmjs.org/cli/-/cli-0.4.3.tgz
+http 200 https://registry.npmjs.org/colors
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"1CELN8I9RMFCK63JOXFG74XPI"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '3850' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/colors'
+verbose mkdir done: /Users/ajmalafif/.npm/colors 755
+silly name, range, hasData 2 [ 'colors', '>=0.3.0', true ]
+silly versions [ 'colors', [ '0.3.0', '0.5.0', '0.5.1', '0.6.0', '0.6.0-1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz',
+verbose addRemoteTarball   '6dbb68ceb8bc60f2b313dcc5ce1599f06d19e67a' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844295-0.35697258450090885'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844295-0.35697258450090885 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844295-0.35697258450090885/tmp.tgz
+http GET https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz
+http 200 https://registry.npmjs.org/optimist
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D1A53VF0KGN493B1WV2N4OQKF"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '36129' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/optimist'
+verbose mkdir done: /Users/ajmalafif/.npm/optimist 755
+silly name, range, hasData 2 [ 'optimist', '>=0.3.5- <0.4.0-', true ]
+silly versions [ 'optimist',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.0.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: '03654b52417030312d109f39b159825b60309304',
+verbose bin dist     tarball: 'http://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz',
+verbose addRemoteTarball   '03654b52417030312d109f39b159825b60309304' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844519-0.7921664833556861'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844519-0.7921664833556861 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844519-0.7921664833556861/tmp.tgz
+http GET https://registry.npmjs.org/optimist/-/optimist-0.3.5.tgz
+http 200 https://registry.npmjs.org/nopt
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"DLONZAFI6Q17ETR1FULQIO4SR"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:13 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '18350' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/nopt'
+verbose mkdir done: /Users/ajmalafif/.npm/nopt 755
+silly name, range, hasData 2 [ 'nopt', '>=1.0.10', true ]
+silly versions [ 'nopt',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '2.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-darwin-ia32-11.4.2',
+verbose bin dist   { shasum: 'ca7416f20a5e3f9c3b86180f96295fa3d0b52e0d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz',
+verbose addRemoteTarball   'ca7416f20a5e3f9c3b86180f96295fa3d0b52e0d' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844720-0.7230833175126463'
+verbose mkdir done: /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844720-0.7230833175126463 755
+verbose fetch to /var/folders/_j/dwdm7s4s5613h1x0vpmm2bjm0000gn/T/npm-1355277838943/1355277844720-0.7230833175126463/tmp.tgz
+http GET https://registry.npmjs.org/nopt/-/nopt-2.0.0.tgz
+http 200 https://registry.npmjs.org/source-map
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"O8PNZV42HCMJMPQGYC5J4FCE"',
+silly get cb     date: 'Wed, 12 Dec 2012 02:03:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '76303' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/ajmalafif/.npm/source-map'
+verbose mkdir done: /Users/ajmalafif/.npm/source-map 755
+silly name, range, hasData 2 [ 'source-map', '>=0.1.7- <0.2.0-', true ]
+silly versions [ 'source-map',
+silly versions   [ '0.0.0', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+verbose about to build /usr/local/lib/node_modules/uglify-js
+ERR! error installing uglify-js@2.2.2
+info unbuild /usr/local/lib/node_modules/uglify-js
+verbose from cache /usr/local/lib/node_modules/uglify-js/package.json
+info preuninstall uglify-js@2.2.2
+info uninstall uglify-js@2.2.2
+verbose unbuild uglify-js@2.2.2 [ true,
+verbose unbuild uglify-js@2.2.2   '/usr/local/lib/node_modules',
+verbose unbuild uglify-js@2.2.2   '/usr/local/lib/node_modules' ]
+verbose binRoot [ '/usr/local/bin', { uglifyjs: 'bin/uglifyjs' } ]
+info postuninstall uglify-js@2.2.2
+verbose installOne cb uglify-js@2.2.2
+ERR! Error: No compatible version found: source-map@'>=0.1.7- <0.2.0-'
+ERR! Valid install targets:
+ERR! ["0.0.0","0.1.0","0.1.1","0.1.2","0.1.3"]
+ERR!     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:488:10)
+ERR!     at next_ (/usr/local/lib/node_modules/npm/lib/cache.js:438:17)
+ERR!     at next (/usr/local/lib/node_modules/npm/lib/cache.js:415:44)
+ERR!     at /usr/local/lib/node_modules/npm/lib/cache.js:408:5
+ERR!     at saved (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:231:7)
+ERR! You may report this log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.4.2
+ERR! command "node" "/usr/local/bin/npm" "install" "recess" "connect" "uglify-js" "jshint" "-g"
+ERR! cwd /Users/ajmalafif/projects/rails/trisha/chuchu
+ERR! node -v v0.6.11
+ERR! npm -v 1.1.1
+ERR! message No compatible version found: source-map@'>=0.1.7- <0.2.0-'
+ERR! message Valid install targets:
+ERR! message ["0.0.0","0.1.0","0.1.1","0.1.2","0.1.3"]
+verbose exit [ 1, true ]
