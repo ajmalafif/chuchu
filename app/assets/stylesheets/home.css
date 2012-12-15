@@ -197,3 +197,20 @@ h1.title {
   text-align: center;
   background: #333;
   padding: 1em 0 0.5em 0; }
+
+.twitter {
+  margin: 0 auto;
+  padding: 1em 0 1em 0; }
+
+span.tweet {
+  background: #ddd;
+  color: #333;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 4em;
+  margin-bottom: 1em;
+  padding: 0 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  min-width: 7em; }

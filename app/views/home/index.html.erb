@@ -1,21 +1,26 @@
 <h1 class="title">Happy Birthday</h1>
 
-<div class="instagram">
+<div class="container-fluid">
+
+    <div class="instagram">
 <% @instagram.map do |instagram| %>
-
    <%= image_tag instagram.images.standard_resolution.url %>
-
  <% end %>
- </div>
 
- <div class="twitter">
+    </div>
 
-     <%=  @twitter.results.first.text.to_json %>
+    <div class="twitter">
+<ul class="twitter inline">
+<% @twitter.map do |tweet| %>
+    <li><img class="avatar" src="<%= tweet.user.profile_image_url(size = :bigger) %>" /><span class="username"><%= "#{tweet.user.name}" %></span><span class="tweet"><%= "#{tweet.text}" %></span></li>
+<% end %>
+</ul>
 
+    </div>
 
- </div>
-
- <div class="vimeo">
+    <div class="vimeo">
 <iframe id="player_1" src="http://player.vimeo.com/video/52989247?api=1&amp;player_id=player_1" width="540" height="304" frameborder="0"></iframe>
+
+    </div>
 
 </div>
