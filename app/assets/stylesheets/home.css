@@ -188,6 +188,9 @@ table {
   border-spacing: 0; }
 
 /*CUSTOM *******/
+.clear {
+  clear: both; }
+
 h1.title {
   text-align: center;
   text-transform: uppercase; }
@@ -199,24 +202,39 @@ h1.title {
   padding: 1em 0 0.5em 0; }
 
 .twitter {
-  margin: 0 auto;
-  padding: 1em 0 1em 0; }
+  margin: 90px auto;
+  text-align: center; }
 
-ul.twitter li {
-  max-width: 33%; }
+ul.twitter {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block; }
+
+.twitter ul li {
+  vertical-align: top;
+  min-height: 200px;
+  margin: 15px 2px 15px 2px;
+  margin: 15px auto; }
 
 span.tweet {
-  background: #ddd;
+  background: #DDD;
   color: #333;
   display: inline-block;
-  font-size: 14px;
-  line-height: 4em;
-  margin-bottom: 1em;
-  padding: 0 1em;
-  position: relative;
-  text-align: center;
-  vertical-align: top;
-  min-width: 7em; }
+  font-size: 13px;
+  line-height: 2.3em;
+  margin-bottom: 15px;
+  padding: .5em 1em;
+  min-height: 2em;
+  min-height: 90px;
+  vertical-align: top; }
+
+span.username {
+  font-style: italic;
+  display: block;
+  padding-top: 10px; }
+
+img.avatar {
+  border-radius: 50%; }
 
 .non-semantic-protector {
   position: relative;
@@ -268,3 +286,8 @@ span.tweet {
 .ribbon .ribbon-content:after {
   right: 0;
   border-width: 1em 1em 0 0; }
+
+@media (max-width: 767px) {
+  ul.twitter {
+    width: 305px;
+    margin-left: -37px; } }
