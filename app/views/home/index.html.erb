@@ -1,12 +1,22 @@
-<h1 class="title">Happy Birthday</h1>
 
 <div class="container-fluid">
 
     <div class="instagram">
+        <div class="non-semantic-protector">
+            <p class="ribbon">
+                <strong class="ribbon-content">Happy 19th Birthday!</strong>
+            </p>
+        </div>
+
 <% @instagram.map do |instagram| %>
    <%= image_tag instagram.images.standard_resolution.url %>
  <% end %>
 
+        <div class="non-semantic-protector">
+            <p class="ribbon">
+                <strong class="ribbon-content">Daiyan Trisha</strong>
+            </p>
+        </div>
     </div>
 
     <div class="twitter">
