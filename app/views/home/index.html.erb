@@ -2,7 +2,13 @@
 
 
     <div class="instagram">
-        <a name="instagram"><h1>Instagram</h1></a>
+
+    <h1>
+        <div class="instag">
+        <i class="icon-camera-retro icon-large"></i>
+        </div>
+        Instagram</h1>
+
 
 <% @instagram.map do |instagram| %>
    <%= image_tag instagram.images.standard_resolution.url %>
@@ -10,21 +16,26 @@
 
         <!-- <div class="non-semantic-protector"> -->
             <p class="ribbon">
-                <strong class="ribbon-content">Happy 19th Birthday, Daiyan Trisha!</strong>
+                <strong class="ribbon-content" style="font-size: 2.3em;">Happy 19th Birthday, Daiyan Trisha!</strong>
             </p>
         <!-- </div> -->
     </div>
 
     <div class="twitter row">
 
-                <a name="twitter"><h1>Twitter</h1></a>
+
+                        <h1><div class="instag">
+                        <i class="icon-twitter icon-large"></i>
+                        </div>
+        Twitter</h1>
+
 
                 <h2>Join in and tweet "happy birthday" to @daiyantrisha</h2>
 
 <ul class="twitter inline">
 <% @twitter.map do |tweet| %>
     <li class="span3">
-        <span class="tweet"><%= "#{tweet.text}" %></span>
+        <div class="tweet"><%= "#{tweet.text}" %></div>
         <div class="clear"></div>
         <div class="avatar"> <%= image_tag tweet.user.profile_image_url(size = :bigger) %> </div>
         <div class="clear"></div>
@@ -37,7 +48,10 @@
 
     <div class="vimeo">
 
-                <a name="video"><h1>video</h1></a>
+        <h1><div class="instag">
+                        <i class="icon-facetime-video icon-large"></i>
+                        </div>
+                        video</h1>
 
 <iframe id="player_1" src="http://player.vimeo.com/video/52989247?api=1&amp;player_id=player_1" width="540" height="304" frameborder="0"></iframe>
 
