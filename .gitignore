@@ -17,3 +17,4 @@
 app/controllers/home_controller.rb
 config/initializers/instagram.rb
 config/initializers/twitter.rb
+config/initializers/vimeo.rb
